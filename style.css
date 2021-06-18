@@ -1,0 +1,72 @@
+nav#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+img#brand-logo {
+    width: 200px;
+    margin-right: 50px;
+}
+#connect-button {
+    background-color: rgb(23, 37, 79);
+    border-radius: 10px;
+    color: white;
+}
+
+.homepage-container {
+    padding: 0; margin: 0;
+}
+
+#banner {
+    margin: 0; padding-left: 5%;
+    display: flex;
+    background-color: rgb(23, 37, 79);
+    color: white;
+}
+#banner-text-section {
+    padding: 50px 50px 50px 0;
+    width: 70%;
+}
+p {
+    margin-top: 20px !important;
+    text-align: justify;
+}
+#conversation-image {
+    width: 400px;
+}
+#expert-section {
+    padding-left: 8%;
+}
+#experts-image {
+    position: absolute; top: -80px;
+    width: 40%;
+}
+#subbanner {
+    display: flex;
+    position: relative;
+}
+#expert-section {
+    min-height: 264px;
+}
+#catch-phrase{
+    text-align: center;
+    margin: 20px 0 !important;
+}
+.half-width {
+    height: fit-content;
+    width: 50%;
+}
+.brand-section {
+    margin-top: 25px;
+    display: flex; justify-content: space-between;
+}
+.brand-group {
+    display: flex; justify-content: center;
+    flex-wrap: wrap;
+    width: 33.33%; max-width: px ;
+}
+img.brand-logo {
+    margin: 5px;
+    max-width: 33%;
+    height: auto;
+}
